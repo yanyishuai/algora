@@ -246,7 +246,8 @@ defmodule AlgoraWeb.Org.DashboardLive do
                                 </div>
                               </div>
                               <.link
-                                rel="noopener"
+                                rel="noopener noreferrer"
+                                target="_blank"
                                 class="group/issue inline-flex flex-col"
                                 href={Bounty.url(bounty)}
                               >
@@ -1025,8 +1026,7 @@ defmodule AlgoraWeb.Org.DashboardLive do
         required
       />
       <.button phx-disable-with="Signing in..." class="w-full py-5">
-        âœ¨ Get in âœ¨
-      </.button>
+        âœ?Get in âœ?      </.button>
     </.simple_form>
     """
   end
@@ -1056,8 +1056,7 @@ defmodule AlgoraWeb.Org.DashboardLive do
         required
       />
       <.button phx-disable-with="Signing in..." class="w-full py-5">
-        âœ¨ Get in âœ¨
-      </.button>
+        âœ?Get in âœ?      </.button>
     </.simple_form>
     """
   end
